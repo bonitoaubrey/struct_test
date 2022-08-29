@@ -1,3 +1,5 @@
+#[derive(Debug)]
+
 struct Person {
     name: String,
     surname: String,
@@ -8,8 +10,10 @@ struct Person {
 fn main() {
     let person1 = Person {
         name: String::from("Kate"),
-        sername: String::from("White"),
+        surname: String::from("White"),
         age: 33,
         balance: 3000.00,
     };
+
+    println!("{:#?}", person1);
 }
