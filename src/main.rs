@@ -6,5 +6,10 @@ struct Person {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let person1 = Person {
+        name: String::from("Kate"),
+        sername: String::from("White"),
+        age: 33,
+        balance: 3000.00,
+    };
 }
